@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"> 
+	<title>線上報名</title>
+</head>
+<body>
+	<h3>線上報名</h3>
+	<form>
+		姓名(必填)：
+		<input type="text" name="name" maxlength="10" placeholder="enter name" required><br>
+		學院(必填)：
+		<select>
+			<option value="literature">文學院</option>
+			<option value="business">商學院</option>
+			<option value="education">教育學院</option>
+			<option value="science">理學院</option>
+			<option value="society">社會科學學院</option>
+			<option value="law">法學院</option>
+			<option value="foreign">外語學院</option>
+			<option value="communication">傳播學院</option>
+			<option value="international">國際事務學院</option>
+		</select><br>
+		手機(必填)：
+		<input type="text" name="phone" pattern="[0-9]{10}" placeholder="enter phone" required><br>
+		Email(必填)：
+		<input type="email" name="email" placeholder="enter email" required><br>
+		生日：
+		<input type="date" name="birthday"><br>
+		<input type="submit" value="submit">
+	</form>
+</body>
+</html>
